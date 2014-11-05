@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF115AAA19F6012A00EA7263 /* AuthenticationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF115AA919F6012A00EA7263 /* AuthenticationContext.swift */; };
+		AF16913C19ECEE740010601E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16913B19ECEE740010601E /* LoginViewController.swift */; };
+		AF16913E19ECF15D0010601E /* SiginUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16913D19ECF15D0010601E /* SiginUpViewController.swift */; };
+		AF16914019ED03F60010601E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16913F19ED03F60010601E /* logo.png */; };
+		AF16914319ED04A30010601E /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16914219ED04A30010601E /* dog.png */; };
+		AF6A0B2A19ECD6720002528E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A0B2919ECD6720002528E /* AppDelegate.swift */; };
+		AF6A0B2F19ECD6720002528E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A0B2D19ECD6720002528E /* Main.storyboard */; };
+		AF6A0B3119ECD6720002528E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6A0B3019ECD6720002528E /* Images.xcassets */; };
+		AF6A0B3419ECD6720002528E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF6A0B3219ECD6720002528E /* LaunchScreen.xib */; };
+		AF6A0B4019ECD6720002528E /* PetPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A0B3F19ECD6720002528E /* PetPalTests.swift */; };
+		AF9F1D3A19F6CFCE0023111F /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F1D3819F6CFCE0023111F /* settings.png */; };
+		AF9F1D3B19F6CFCE0023111F /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F1D3919F6CFCE0023111F /* settings@2x.png */; };
+		AF9F1D3E19F6D0CB0023111F /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F1D3C19F6D0CB0023111F /* account.png */; };
+		AF9F1D3F19F6D0CB0023111F /* account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F1D3D19F6D0CB0023111F /* account@2x.png */; };
+		AFB7D9F019F762480042CF02 /* BluetoothContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7D9EF19F762480042CF02 /* BluetoothContext.swift */; };
+		AFB7D9F219F762DE0042CF02 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7D9F119F762DE0042CF02 /* CoreBluetooth.framework */; };
+		AFBAC74F19FB6FE400E69297 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBAC74E19FB6FE400E69297 /* AppContext.swift */; };
+		AFC1B2E219F62E160074C3C9 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC1B2E119F62E160074C3C9 /* AccountViewController.swift */; };
+		AFF041E11A07F260000061D4 /* KeyboardControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF041E01A07F260000061D4 /* KeyboardControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6A0B3A19ECD6720002528E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6A0B1C19ECD6720002528E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6A0B2319ECD6720002528E;
+			remoteInfo = PetPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF115AA919F6012A00EA7263 /* AuthenticationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationContext.swift; sourceTree = "<group>"; };
+		AF16913B19ECEE740010601E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF16913D19ECF15D0010601E /* SiginUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiginUpViewController.swift; sourceTree = "<group>"; };
+		AF16913F19ED03F60010601E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AF16914219ED04A30010601E /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		AF6A0B2419ECD6720002528E /* PetPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6A0B2819ECD6720002528E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6A0B2919ECD6720002528E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF6A0B2E19ECD6720002528E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF6A0B3019ECD6720002528E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF6A0B3319ECD6720002528E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF6A0B3919ECD6720002528E /* PetPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6A0B3E19ECD6720002528E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6A0B3F19ECD6720002528E /* PetPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPalTests.swift; sourceTree = "<group>"; };
+		AF9F1D3819F6CFCE0023111F /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		AF9F1D3919F6CFCE0023111F /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		AF9F1D3C19F6D0CB0023111F /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		AF9F1D3D19F6D0CB0023111F /* account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account@2x.png"; sourceTree = "<group>"; };
+		AFB7D9EF19F762480042CF02 /* BluetoothContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothContext.swift; sourceTree = "<group>"; };
+		AFB7D9F119F762DE0042CF02 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AFBAC74E19FB6FE400E69297 /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		AFC1B2E119F62E160074C3C9 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		AFF041E01A07F260000061D4 /* KeyboardControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6A0B2119ECD6720002528E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB7D9F219F762DE0042CF02 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6A0B3619ECD6720002528E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF16914119ED03FD0010601E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F1D3C19F6D0CB0023111F /* account.png */,
+				AF9F1D3D19F6D0CB0023111F /* account@2x.png */,
+				AF9F1D3819F6CFCE0023111F /* settings.png */,
+				AF9F1D3919F6CFCE0023111F /* settings@2x.png */,
+				AF16914219ED04A30010601E /* dog.png */,
+				AF16913F19ED03F60010601E /* logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AF6A0B1B19ECD6720002528E = {
+			isa = PBXGroup;
+			children = (
+				AFB7D9F119F762DE0042CF02 /* CoreBluetooth.framework */,
+				AF6A0B2619ECD6720002528E /* PetPal */,
+				AF6A0B3C19ECD6720002528E /* PetPalTests */,
+				AF6A0B2519ECD6720002528E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6A0B2519ECD6720002528E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A0B2419ECD6720002528E /* PetPal.app */,
+				AF6A0B3919ECD6720002528E /* PetPalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6A0B2619ECD6720002528E /* PetPal */ = {
+			isa = PBXGroup;
+			children = (
+				AF16914119ED03FD0010601E /* Images */,
+				AF6A0B2919ECD6720002528E /* AppDelegate.swift */,
+				AF6A0B2D19ECD6720002528E /* Main.storyboard */,
+				AF6A0B3019ECD6720002528E /* Images.xcassets */,
+				AF6A0B3219ECD6720002528E /* LaunchScreen.xib */,
+				AF6A0B2719ECD6720002528E /* Supporting Files */,
+				AF16913B19ECEE740010601E /* LoginViewController.swift */,
+				AF16913D19ECF15D0010601E /* SiginUpViewController.swift */,
+				AF115AA919F6012A00EA7263 /* AuthenticationContext.swift */,
+				AFC1B2E119F62E160074C3C9 /* AccountViewController.swift */,
+				AFB7D9EF19F762480042CF02 /* BluetoothContext.swift */,
+				AFBAC74E19FB6FE400E69297 /* AppContext.swift */,
+				AFF041E01A07F260000061D4 /* KeyboardControl.swift */,
+			);
+			path = PetPal;
+			sourceTree = "<group>";
+		};
+		AF6A0B2719ECD6720002528E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A0B2819ECD6720002528E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF6A0B3C19ECD6720002528E /* PetPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A0B3F19ECD6720002528E /* PetPalTests.swift */,
+				AF6A0B3D19ECD6720002528E /* Supporting Files */,
+			);
+			path = PetPalTests;
+			sourceTree = "<group>";
+		};
+		AF6A0B3D19ECD6720002528E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A0B3E19ECD6720002528E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6A0B2319ECD6720002528E /* PetPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6A0B4319ECD6720002528E /* Build configuration list for PBXNativeTarget "PetPal" */;
+			buildPhases = (
+				AF6A0B2019ECD6720002528E /* Sources */,
+				AF6A0B2119ECD6720002528E /* Frameworks */,
+				AF6A0B2219ECD6720002528E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPal;
+			productName = PetPal;
+			productReference = AF6A0B2419ECD6720002528E /* PetPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6A0B3819ECD6720002528E /* PetPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6A0B4619ECD6720002528E /* Build configuration list for PBXNativeTarget "PetPalTests" */;
+			buildPhases = (
+				AF6A0B3519ECD6720002528E /* Sources */,
+				AF6A0B3619ECD6720002528E /* Frameworks */,
+				AF6A0B3719ECD6720002528E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6A0B3B19ECD6720002528E /* PBXTargetDependency */,
+			);
+			name = PetPalTests;
+			productName = PetPalTests;
+			productReference = AF6A0B3919ECD6720002528E /* PetPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6A0B1C19ECD6720002528E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = PetPal;
+				TargetAttributes = {
+					AF6A0B2319ECD6720002528E = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 95HJVJ6V6D;
+					};
+					AF6A0B3819ECD6720002528E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = AF6A0B2319ECD6720002528E;
+					};
+				};
+			};
+			buildConfigurationList = AF6A0B1F19ECD6720002528E /* Build configuration list for PBXProject "PetPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6A0B1B19ECD6720002528E;
+			productRefGroup = AF6A0B2519ECD6720002528E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6A0B2319ECD6720002528E /* PetPal */,
+				AF6A0B3819ECD6720002528E /* PetPalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6A0B2219ECD6720002528E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9F1D3A19F6CFCE0023111F /* settings.png in Resources */,
+				AF9F1D3B19F6CFCE0023111F /* settings@2x.png in Resources */,
+				AF16914019ED03F60010601E /* logo.png in Resources */,
+				AF9F1D3E19F6D0CB0023111F /* account.png in Resources */,
+				AF9F1D3F19F6D0CB0023111F /* account@2x.png in Resources */,
+				AF16914319ED04A30010601E /* dog.png in Resources */,
+				AF6A0B2F19ECD6720002528E /* Main.storyboard in Resources */,
+				AF6A0B3419ECD6720002528E /* LaunchScreen.xib in Resources */,
+				AF6A0B3119ECD6720002528E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6A0B3719ECD6720002528E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6A0B2019ECD6720002528E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF16913E19ECF15D0010601E /* SiginUpViewController.swift in Sources */,
+				AF16913C19ECEE740010601E /* LoginViewController.swift in Sources */,
+				AFF041E11A07F260000061D4 /* KeyboardControl.swift in Sources */,
+				AFC1B2E219F62E160074C3C9 /* AccountViewController.swift in Sources */,
+				AFBAC74F19FB6FE400E69297 /* AppContext.swift in Sources */,
+				AF115AAA19F6012A00EA7263 /* AuthenticationContext.swift in Sources */,
+				AFB7D9F019F762480042CF02 /* BluetoothContext.swift in Sources */,
+				AF6A0B2A19ECD6720002528E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6A0B3519ECD6720002528E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6A0B4019ECD6720002528E /* PetPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6A0B3B19ECD6720002528E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6A0B2319ECD6720002528E /* PetPal */;
+			targetProxy = AF6A0B3A19ECD6720002528E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF6A0B2D19ECD6720002528E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6A0B2E19ECD6720002528E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF6A0B3219ECD6720002528E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6A0B3319ECD6720002528E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6A0B4119ECD6720002528E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF6A0B4219ECD6720002528E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6A0B4419ECD6720002528E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF6A0B4519ECD6720002528E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF6A0B4719ECD6720002528E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPal.app/PetPal";
+			};
+			name = Debug;
+		};
+		AF6A0B4819ECD6720002528E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPal.app/PetPal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6A0B1F19ECD6720002528E /* Build configuration list for PBXProject "PetPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6A0B4119ECD6720002528E /* Debug */,
+				AF6A0B4219ECD6720002528E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6A0B4319ECD6720002528E /* Build configuration list for PBXNativeTarget "PetPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6A0B4419ECD6720002528E /* Debug */,
+				AF6A0B4519ECD6720002528E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6A0B4619ECD6720002528E /* Build configuration list for PBXNativeTarget "PetPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6A0B4719ECD6720002528E /* Debug */,
+				AF6A0B4819ECD6720002528E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6A0B1C19ECD6720002528E /* Project object */;
+}
