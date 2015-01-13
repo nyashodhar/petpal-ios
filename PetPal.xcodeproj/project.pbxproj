@@ -12,6 +12,15 @@
 		AF16913E19ECF15D0010601E /* SiginUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16913D19ECF15D0010601E /* SiginUpViewController.swift */; };
 		AF16914019ED03F60010601E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16913F19ED03F60010601E /* logo.png */; };
 		AF16914319ED04A30010601E /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16914219ED04A30010601E /* dog.png */; };
+		AF563C851A49500700A8341E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C841A49500700A8341E /* CustomTextField.swift */; };
+		AF563C871A4950D100A8341E /* CreatePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C861A4950D100A8341E /* CreatePetViewController.swift */; };
+		AF563C891A49604100A8341E /* ic_done_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = AF563C881A49604100A8341E /* ic_done_black_48dp.png */; };
+		AF563C8B1A49618600A8341E /* ic_done_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = AF563C8A1A49618600A8341E /* ic_done_black_24dp.png */; };
+		AF563C8E1A53B20E00A8341E /* PetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C8D1A53B20E00A8341E /* PetService.swift */; };
+		AF563C901A53B3C500A8341E /* RestTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C8F1A53B3C500A8341E /* RestTemplate.swift */; };
+		AF563C921A53B96000A8341E /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C911A53B96000A8341E /* Serializable.swift */; };
+		AF563C941A53BA3600A8341E /* SerializableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C931A53BA3600A8341E /* SerializableTest.swift */; };
+		AF61797F1A53BE0000B2E5C3 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF563C911A53B96000A8341E /* Serializable.swift */; };
 		AF6A0B2A19ECD6720002528E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6A0B2919ECD6720002528E /* AppDelegate.swift */; };
 		AF6A0B2F19ECD6720002528E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6A0B2D19ECD6720002528E /* Main.storyboard */; };
 		AF6A0B3119ECD6720002528E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6A0B3019ECD6720002528E /* Images.xcassets */; };
@@ -26,6 +35,7 @@
 		AFBAC74F19FB6FE400E69297 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBAC74E19FB6FE400E69297 /* AppContext.swift */; };
 		AFC1B2E219F62E160074C3C9 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC1B2E119F62E160074C3C9 /* AccountViewController.swift */; };
 		AFF041E11A07F260000061D4 /* KeyboardControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF041E01A07F260000061D4 /* KeyboardControl.swift */; };
+		AFF2205A1A0A0B5700F65EE8 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF220591A0A0B5700F65EE8 /* DeviceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,14 @@
 		AF16913D19ECF15D0010601E /* SiginUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiginUpViewController.swift; sourceTree = "<group>"; };
 		AF16913F19ED03F60010601E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		AF16914219ED04A30010601E /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		AF563C841A49500700A8341E /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AF563C861A4950D100A8341E /* CreatePetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePetViewController.swift; sourceTree = "<group>"; };
+		AF563C881A49604100A8341E /* ic_done_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_done_black_48dp.png; sourceTree = "<group>"; };
+		AF563C8A1A49618600A8341E /* ic_done_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_done_black_24dp.png; sourceTree = "<group>"; };
+		AF563C8D1A53B20E00A8341E /* PetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetService.swift; sourceTree = "<group>"; };
+		AF563C8F1A53B3C500A8341E /* RestTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestTemplate.swift; sourceTree = "<group>"; };
+		AF563C911A53B96000A8341E /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		AF563C931A53BA3600A8341E /* SerializableTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializableTest.swift; sourceTree = "<group>"; };
 		AF6A0B2419ECD6720002528E /* PetPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6A0B2819ECD6720002528E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6A0B2919ECD6720002528E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +80,7 @@
 		AFBAC74E19FB6FE400E69297 /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 		AFC1B2E119F62E160074C3C9 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		AFF041E01A07F260000061D4 /* KeyboardControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardControl.swift; sourceTree = "<group>"; };
+		AFF220591A0A0B5700F65EE8 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +105,8 @@
 		AF16914119ED03FD0010601E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AF563C8A1A49618600A8341E /* ic_done_black_24dp.png */,
+				AF563C881A49604100A8341E /* ic_done_black_48dp.png */,
 				AF9F1D3C19F6D0CB0023111F /* account.png */,
 				AF9F1D3D19F6D0CB0023111F /* account@2x.png */,
 				AF9F1D3819F6CFCE0023111F /* settings.png */,
@@ -131,6 +152,12 @@
 				AFB7D9EF19F762480042CF02 /* BluetoothContext.swift */,
 				AFBAC74E19FB6FE400E69297 /* AppContext.swift */,
 				AFF041E01A07F260000061D4 /* KeyboardControl.swift */,
+				AFF220591A0A0B5700F65EE8 /* DeviceViewController.swift */,
+				AF563C841A49500700A8341E /* CustomTextField.swift */,
+				AF563C861A4950D100A8341E /* CreatePetViewController.swift */,
+				AF563C8D1A53B20E00A8341E /* PetService.swift */,
+				AF563C8F1A53B3C500A8341E /* RestTemplate.swift */,
+				AF563C911A53B96000A8341E /* Serializable.swift */,
 			);
 			path = PetPal;
 			sourceTree = "<group>";
@@ -148,6 +175,7 @@
 			children = (
 				AF6A0B3F19ECD6720002528E /* PetPalTests.swift */,
 				AF6A0B3D19ECD6720002528E /* Supporting Files */,
+				AF563C931A53BA3600A8341E /* SerializableTest.swift */,
 			);
 			path = PetPalTests;
 			sourceTree = "<group>";
@@ -241,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF563C8B1A49618600A8341E /* ic_done_black_24dp.png in Resources */,
 				AF9F1D3A19F6CFCE0023111F /* settings.png in Resources */,
 				AF9F1D3B19F6CFCE0023111F /* settings@2x.png in Resources */,
 				AF16914019ED03F60010601E /* logo.png in Resources */,
@@ -250,6 +279,7 @@
 				AF6A0B2F19ECD6720002528E /* Main.storyboard in Resources */,
 				AF6A0B3419ECD6720002528E /* LaunchScreen.xib in Resources */,
 				AF6A0B3119ECD6720002528E /* Images.xcassets in Resources */,
+				AF563C891A49604100A8341E /* ic_done_black_48dp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,14 +297,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF563C921A53B96000A8341E /* Serializable.swift in Sources */,
 				AF16913E19ECF15D0010601E /* SiginUpViewController.swift in Sources */,
 				AF16913C19ECEE740010601E /* LoginViewController.swift in Sources */,
 				AFF041E11A07F260000061D4 /* KeyboardControl.swift in Sources */,
+				AF563C871A4950D100A8341E /* CreatePetViewController.swift in Sources */,
 				AFC1B2E219F62E160074C3C9 /* AccountViewController.swift in Sources */,
+				AF563C851A49500700A8341E /* CustomTextField.swift in Sources */,
 				AFBAC74F19FB6FE400E69297 /* AppContext.swift in Sources */,
 				AF115AAA19F6012A00EA7263 /* AuthenticationContext.swift in Sources */,
+				AF563C901A53B3C500A8341E /* RestTemplate.swift in Sources */,
 				AFB7D9F019F762480042CF02 /* BluetoothContext.swift in Sources */,
+				AF563C8E1A53B20E00A8341E /* PetService.swift in Sources */,
 				AF6A0B2A19ECD6720002528E /* AppDelegate.swift in Sources */,
+				AFF2205A1A0A0B5700F65EE8 /* DeviceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF61797F1A53BE0000B2E5C3 /* Serializable.swift in Sources */,
+				AF563C941A53BA3600A8341E /* SerializableTest.swift in Sources */,
 				AF6A0B4019ECD6720002528E /* PetPalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

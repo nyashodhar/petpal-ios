@@ -34,7 +34,7 @@ class BluetoothContext: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate
     
     func centralManager(central: CBCentralManager!, didDiscoverPeripheral peripheral: CBPeripheral!, advertisementData: [NSObject : AnyObject]!, RSSI: NSNumber!) {
         
-        println("Discovered \(peripheral.name) with data \(advertisementData)")
+        println("Discovered \(peripheral.identifier) with data \(advertisementData)")
         
         if (peripheral.services != nil) {
             for service in peripheral.services {
@@ -64,6 +64,7 @@ class BluetoothContext: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate
         // [peripheral discoverServices:@[[CBUUID UUIDWithString:BLUETOOTH_LISTEN_SERVICE]]];
         
         peripheral.discoverServices(nil)
+
     }
     
     
